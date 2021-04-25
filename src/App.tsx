@@ -22,7 +22,7 @@ function App() {
                 design, development, and testing. Possessed advanced knowledge
                 of programming from back-end to front-end. Demonstrated ability
                 to work in a team environment with proven organizational and
-                leadersh
+                leadership capabilities.
               </Text>
             </Section>
             <Section title="Experience">
