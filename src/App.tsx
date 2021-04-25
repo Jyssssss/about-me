@@ -1,76 +1,31 @@
 import React from "react";
 import { Box, Flex, Link, Stack, Text } from "@chakra-ui/layout";
-import { Image } from "@chakra-ui/react";
+import { Side } from "./components/Side";
+import { Section } from "./components/Section";
 
 function App() {
   return (
     <Box mt={8} mb={8} mx="auto" maxW="1200px" w="100%">
       <Flex>
-        <Box
-          position="sticky"
-          top={8}
-          p={5}
-          shadow="lg"
-          borderWidth="1px"
-          flex="1"
-          borderRadius="md"
-          mr="8"
-          maxH="sm"
-          fontFamily="mono"
-        >
-          <Flex mt="4" justifyContent="center">
-            <Image
-              borderRadius="full"
-              boxSize="150"
-              src="https://jyssssss.github.io/about-me/head2.png"
-              alt="Jeng-Yeu Shih"
-            />
-          </Flex>
-          <Box mt="4">
-            <Flex justifyContent="center" mb="2">
-              <Text fontSize="xl" variant="content">
-                Jeng-Yeu Shih
-              </Text>
-            </Flex>
-            <Link href="mailto:shihjengyeu@gmail.com" color="blue">
-              <Text variant="content">shihjengyeu@gmail.com</Text>
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/shihjengyeu/"
-              color="blue"
-              target="_blank"
-            >
-              <Text variant="content">LinkedIn</Text>
-            </Link>
-            <Link
-              href="https://github.com/Jyssssss"
-              color="blue"
-              target="_blank"
-            >
-              <Text variant="content">Github</Text>
-            </Link>
-          </Box>
-        </Box>
+        <Side
+          name="Jeng-Yeu Shih"
+          email="shihjengyeu@gmail.com"
+          photo="https://jyssssss.github.io/about-me/head2.png"
+          linkedIn="https://www.linkedin.com/in/shihjengyeu/"
+          gitHub="https://github.com/Jyssssss"
+        ></Side>
         <Box ml="auto">
           <Stack spacing={8} width="4xl">
-            <Box p={5} shadow="lg" borderWidth="1px" flex="1" borderRadius="lg">
-              <Text fontSize="2xl" fontFamily="mono">
-                About Me
-              </Text>
-              <br></br>
+            <Section title="About Me">
               <Text>
                 <b>Full-stack software engineer</b> with 3+ years in analysis,
                 design, development, and testing. Possessed advanced knowledge
                 of programming from back-end to front-end. Demonstrated ability
                 to work in a team environment with proven organizational and
-                leadership capabilities.
+                leadersh
               </Text>
-            </Box>
-            <Box p={5} shadow="lg" borderWidth="1px" flex="1" borderRadius="lg">
-              <Text fontSize="2xl" fontFamily="mono">
-                Experience
-              </Text>
-              <br></br>
+            </Section>
+            <Section title="Experience">
               <Flex mb="2">
                 <Box fontWeight="bold">
                   <Text>
@@ -139,12 +94,8 @@ function App() {
                 C#, which simulates the server-side of stock trading, testing
                 client-side FIX Gateway.
               </Text>
-            </Box>
-            <Box p={5} shadow="lg" borderWidth="1px" flex="1" borderRadius="lg">
-              <Text fontSize="2xl" fontFamily="mono">
-                Educations
-              </Text>
-              <br></br>
+            </Section>
+            <Section title="Educations">
               <Flex mb="2">
                 <Box fontWeight="bold">
                   <Text>Santa Clara University, Santa Clara, California</Text>
@@ -168,12 +119,8 @@ function App() {
               <Text variant="content">
                 Bachelor Degree of Computer Science and Information Engineering
               </Text>
-            </Box>
-            <Box p={5} shadow="lg" borderWidth="1px" flex="1" borderRadius="lg">
-              <Text fontSize="2xl" fontFamily="mono">
-                Projects
-              </Text>
-              <br></br>
+            </Section>
+            <Section title="Projects">
               <Text variant="content" fontWeight="bold">
                 JoForum, Side Project
               </Text>
@@ -269,12 +216,8 @@ function App() {
                 Developed an AI engine by implementing Alpha-beta Pruning
                 Algorithm in <b>C++</b>.
               </Text>
-            </Box>
-            <Box p={5} shadow="lg" borderWidth="1px" flex="1" borderRadius="lg">
-              <Text fontSize="2xl" fontFamily="mono">
-                Skills
-              </Text>
-              <br></br>
+            </Section>
+            <Section title="Skills">
               <Text variant="content" fontWeight="bold">
                 Programming Languages
               </Text>
@@ -306,7 +249,7 @@ function App() {
                 Rails, GraphQL, Rest APIs, Git, Azure, TFS, Linux, Docker,
                 Redis, Visual Studio, VS Code
               </Text>
-            </Box>
+            </Section>
           </Stack>
         </Box>
       </Flex>
