@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jyssssss.github.io/about-me",
   "dependencies": {
     "@chakra-ui/react": "^1.6.0",
     "@emotion/react": "^11",
@@ -22,6 +23,7 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

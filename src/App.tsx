@@ -22,7 +22,7 @@ function App() {
             <Image
               borderRadius="full"
               boxSize="150"
-              src="/head2.png"
+              src="https://jyssssss.github.io/about-me/head2.png"
               alt="Jeng-Yeu Shih"
             />
           </Flex>
