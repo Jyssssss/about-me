@@ -29,7 +29,7 @@ function App() {
           <Box mt="4">
             <Flex justifyContent="center" mb="2">
               <Text fontSize="xl" variant="content">
-                Jeng Yeu Shih
+                Jeng-Yeu Shih
               </Text>
             </Flex>
             <Link href="mailto:shihjengyeu@gmail.com" color="blue">
