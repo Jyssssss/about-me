@@ -5,7 +5,7 @@ import { Section } from "./components/Section";
 
 function App() {
   return (
-    <Box mt={8} mb={8} mx="auto" maxW="1200px" w="100%">
+    <Box mt={8} mb={8} mx="auto" maxW="1200">
       <Flex>
         <Side
           name="Jeng-Yeu Shih"

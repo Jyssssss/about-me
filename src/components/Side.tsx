@@ -25,6 +25,7 @@ export const Side: React.FC<SideProps> = ({
       shadow="md"
       flex="1"
       mr="8"
+      mb="8"
       maxH="sm"
       fontFamily="mono"
       bgColor="#F6F6F6"
