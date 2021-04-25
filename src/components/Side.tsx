@@ -22,20 +22,21 @@ export const Side: React.FC<SideProps> = ({
       position="sticky"
       top={8}
       p={5}
-      shadow="2xl"
+      shadow="md"
       flex="1"
-      borderRadius="2xl"
       mr="8"
       maxH="sm"
       fontFamily="mono"
+      bgColor="#F6F6F6"
+      borderRadius="sm"
     >
-      <Flex mt="4" justifyContent="center">
+      <Flex mt="4" mb="8" justifyContent="center">
         <Image
           borderRadius="full"
           boxSize="150"
           src={photo}
           alt={name}
-          shadow="2xl"
+          shadow="dark-lg"
         />
       </Flex>
       <Box mt="4">
