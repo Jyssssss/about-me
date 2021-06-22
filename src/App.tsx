@@ -210,6 +210,23 @@ function App() {
               </Flex>
               <br></br>
               <Text variant="content" fontWeight="bold">
+                Online Shopping Store, Course Project
+              </Text>
+              <Text variant="content">
+                Developed an online shopping store coded in <b>Ruby on Rails</b>
+                .
+              </Text>
+              <Flex>
+                <Link
+                  href="https://github.com/Jyssssss/online-shopping-store"
+                  color="blue"
+                  target="_blank"
+                >
+                  Github
+                </Link>
+              </Flex>
+              <br></br>
+              <Text variant="content" fontWeight="bold">
                 Artificial Intelligence of Gomoku, Independent Study Project
               </Text>
               <Text variant="content">
