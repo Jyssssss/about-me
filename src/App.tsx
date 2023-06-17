@@ -99,8 +99,7 @@ function App() {
               </Text>
               <Text variant="content">
                 ▪ Oversaw <b>DevOps</b> daily tasks by using <b>Azure DevOps</b>{" "}
-                and writing
-                <b>MSBuild</b> and <b>PowerShell</b> scripts to automate
+                and writing <b>MSBuild</b> and <b>PowerShell</b> scripts to automate
                 deployment.
               </Text>
               <Text variant="content">
