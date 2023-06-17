@@ -18,14 +18,56 @@ function App() {
           <Stack spacing={8} width="4xl">
             <Section title="About Me">
               <Text>
-                <b>Full-stack software engineer</b> with 3+ years in analysis,
-                design, development, and testing. Possessed advanced knowledge
-                of programming from back-end to front-end. Demonstrated ability
-                to work in a team environment with proven organizational and
-                leadership capabilities.
+                Highly skilled Software Engineer with 5+ years of experience in
+                developing mobile games, building server APIs, web applications,
+                and designing efficient software solutions. Proficient in C#,
+                JavaScript, and Python, with a strong focus on gaming
+                development in Unity and web development. Demonstrated expertise
+                in system design, architecture, and DevOps practicesF
               </Text>
             </Section>
             <Section title="Experience">
+              <Flex mb="2">
+                <Box fontWeight="bold">
+                  <Text>
+                    Software Engineer, Pocket Gems, San Francisco, California
+                  </Text>
+                </Box>
+                <Box ml="auto">
+                  <Text>08/2021 – current</Text>
+                </Box>
+              </Flex>
+              <Text variant="content">
+                ▪ Developed mobile games using <b>C# Unity</b> and{" "}
+                <b>Objective-C</b>, implementing new features and content to
+                drive higher user retention and maximize monetization potential.
+              </Text>
+              <Text variant="content">
+                ▪ Built server APIs for mobile games using <b>JavaScript</b> and{" "}
+                <b>Python</b>, encompassing game feature APIs and client version
+                upgrade migration APIs.
+              </Text>
+              <Text variant="content">
+                ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
+                <b>Python</b>
+                to streamline engineering workflows and reduce time spent by
+                engineers, leading to a 99% reduction in manual tasks.
+              </Text>
+              <Text variant="content">
+                ▪ Achieved 50% reductions in app bundle size and improved 25%
+                loading time through codebase refactoring and asset organization
+                using addressables in <b>Unity</b>.
+              </Text>
+              <Text variant="content">
+                ▪ Created assets automation tools in <b>C# Unity</b> to
+                accelerate designers' iteration process.
+              </Text>
+              <Text variant="content">
+                ▪ Enhanced the A/B testing tool by implementing the capability
+                for multiple shards, increasing its flexibility and adaptability
+                to various use cases.
+              </Text>
+              <br></br>
               <Flex mb="2">
                 <Box fontWeight="bold">
                   <Text>
@@ -239,14 +281,14 @@ function App() {
                 Programming Languages
               </Text>
               <Text variant="content">
-                C#, JavaScript, SQL, Python, Java, TypeScript, C, C++, Ruby
+                C#, JavaScript, SQL, Python, Objective-C, Java, TypeScript, C, C++, Ruby
               </Text>
               <br></br>
               <Text variant="content" fontWeight="bold">
                 Front-End Development
               </Text>
               <Text variant="content">
-                HTML, CSS, React.js, Next.js, JQuery, AJAX, Bootstrap, webpack,
+                HTML, CSS, Angular.js, React.js, Next.js, JQuery, AJAX, Bootstrap, webpack,
                 Babel
               </Text>
               <br></br>
@@ -254,7 +296,7 @@ function App() {
                 Database
               </Text>
               <Text variant="content">
-                Microsoft SQL Server, Oracle Database, PostgresSQL, IBM DB2,
+                Google DataStore, Microsoft SQL Server, Oracle Database, PostgresSQL, IBM DB2,
                 MySQL
               </Text>
               <br></br>
@@ -262,9 +304,9 @@ function App() {
                 Frameworks and Others
               </Text>
               <Text variant="content">
-                Node.js, Express.js, .Net Core, .NET Framework, Maven, Ruby on
+                Unity, Google App Engine, Node.js, Express.js, .Net Core, .NET Framework, Maven, Ruby on
                 Rails, GraphQL, Rest APIs, Git, Azure, TFS, Linux, Docker,
-                Redis, Visual Studio, VS Code
+                Redis, Visual Studio, VS Code, XCode
               </Text>
             </Section>
           </Stack>
