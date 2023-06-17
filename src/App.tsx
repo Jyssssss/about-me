@@ -49,9 +49,9 @@ function App() {
               </Text>
               <Text variant="content">
                 ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
-                <b>Python</b>
-                to streamline engineering workflows and reduce time spent by
-                engineers, leading to a 99% reduction in manual tasks.
+                <b>Python</b> to streamline engineering workflows and reduce
+                time spent by engineers, leading to a 99% reduction in manual
+                tasks.
               </Text>
               <Text variant="content">
                 ▪ Achieved 50% reductions in app bundle size and improved 25%
@@ -281,32 +281,33 @@ function App() {
                 Programming Languages
               </Text>
               <Text variant="content">
-                C#, JavaScript, SQL, Python, Objective-C, Java, TypeScript, C, C++, Ruby
+                C#, JavaScript, SQL, Python, Objective-C, Java, TypeScript, C,
+                C++, Ruby
               </Text>
               <br></br>
               <Text variant="content" fontWeight="bold">
                 Front-End Development
               </Text>
               <Text variant="content">
-                HTML, CSS, Angular.js, React.js, Next.js, JQuery, AJAX, Bootstrap, webpack,
-                Babel
+                HTML, CSS, Angular.js, React.js, Next.js, JQuery, AJAX,
+                Bootstrap, webpack, Babel
               </Text>
               <br></br>
               <Text variant="content" fontWeight="bold">
                 Database
               </Text>
               <Text variant="content">
-                Google DataStore, Microsoft SQL Server, Oracle Database, PostgresSQL, IBM DB2,
-                MySQL
+                Google DataStore, Microsoft SQL Server, Oracle Database,
+                PostgresSQL, IBM DB2, MySQL
               </Text>
               <br></br>
               <Text variant="content" fontWeight="bold">
                 Frameworks and Others
               </Text>
               <Text variant="content">
-                Unity, Google App Engine, Node.js, Express.js, .Net Core, .NET Framework, Maven, Ruby on
-                Rails, GraphQL, Rest APIs, Git, Azure, TFS, Linux, Docker,
-                Redis, Visual Studio, VS Code, XCode
+                Unity, Google App Engine, Node.js, Express.js, .Net Core, .NET
+                Framework, Maven, Ruby on Rails, GraphQL, Rest APIs, Git, Azure,
+                TFS, Linux, Docker, Redis, Visual Studio, VS Code, XCode
               </Text>
             </Section>
           </Stack>
