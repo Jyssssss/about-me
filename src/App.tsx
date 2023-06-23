@@ -8,7 +8,7 @@ function App() {
     <Box mt={8} mb={8} mx="auto" maxW="1200">
       <Flex>
         <Side
-          name="Jeng-Yeu Shih"
+          name="Jeng-Yeu (Jerold) Shih"
           email="shihjengyeu@gmail.com"
           photo="https://jyssssss.github.io/about-me/head2.png"
           linkedIn="https://www.linkedin.com/in/shihjengyeu/"
@@ -23,7 +23,7 @@ function App() {
                 and designing efficient software solutions. Proficient in C#,
                 JavaScript, and Python, with a strong focus on gaming
                 development in Unity and web development. Demonstrated expertise
-                in system design, architecture, and DevOps practicesF
+                in system design, architecture, and DevOps practices.
               </Text>
             </Section>
             <Section title="Experience">
@@ -43,15 +43,25 @@ function App() {
                 drive higher user retention and maximize monetization potential.
               </Text>
               <Text variant="content">
-                ▪ Built server APIs for mobile games using <b>JavaScript</b> and{" "}
-                <b>Python</b>, encompassing game feature APIs and client version
-                upgrade migration APIs.
+                ▪ Designed and implemented <b>JavaScript</b>-based server APIs,
+                encompassing functionalities of game features and data
+                migration.
+              </Text>
+              <Text variant="content">
+                ▪ Built microservices using <b>Python</b> on{" "}
+                <b>Google App Engine</b>, including game feature APIs, Task
+                Queues, and MapReduce jobs.
               </Text>
               <Text variant="content">
                 ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
                 <b>Python</b> to streamline engineering workflows and reduce
                 time spent by engineers, leading to a 99% reduction in manual
                 tasks.
+              </Text>
+              <Text variant="content">
+                ▪ Enhanced efficiency by developing source code documentation
+                generating tool using Doxygen, and crafted the web application
+                with <b>React.js</b> for visualization.
               </Text>
               <Text variant="content">
                 ▪ Achieved 50% reductions in app bundle size and improved 25%
@@ -99,8 +109,8 @@ function App() {
               </Text>
               <Text variant="content">
                 ▪ Oversaw <b>DevOps</b> daily tasks by using <b>Azure DevOps</b>{" "}
-                and writing <b>MSBuild</b> and <b>PowerShell</b> scripts to automate
-                deployment.
+                and writing <b>MSBuild</b> and <b>PowerShell</b> scripts to
+                automate deployment.
               </Text>
               <Text variant="content">
                 ▪ Held the position of a <b>system designer</b>, planning{" "}
