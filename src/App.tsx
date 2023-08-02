@@ -43,14 +43,19 @@ function App() {
                 drive higher user retention and maximize monetization potential.
               </Text>
               <Text variant="content">
-                ▪ Designed and implemented <b>JavaScript</b>-based server APIs,
-                encompassing functionalities of game features and data
-                migration.
+                ▪ Designed and implemented <b>JavaScript</b>-based server APIs
+                in <b>Node.js</b>, encompassing functionalities of game features
+                and data migration and achieving 100% unit test coverage.
               </Text>
               <Text variant="content">
                 ▪ Built microservices using <b>Python</b> on{" "}
-                <b>Google App Engine</b>, including game feature APIs, Task
-                Queues, and MapReduce jobs.
+                <b>Google App Engine</b> in <b>Google Cloud Platform</b>,
+                including game feature APIs, Task Queues, and MapReduce jobs.
+              </Text>
+              <Text variant="content">
+                ▪ Developed interactive user-facing in-game web views using{" "}
+                <b>JavaScript</b> and <b>AngularJS</b>, enhancing the immersive
+                gaming experience in a multiplayer online mobile game.
               </Text>
               <Text variant="content">
                 ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
