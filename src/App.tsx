@@ -59,9 +59,9 @@ function App() {
               </Text>
               <Text variant="content">
                 ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
-                <b>Python</b> to streamline engineering workflows and reduce
-                time spent by engineers, leading to a 99% reduction in manual
-                tasks.
+                <b>Python</b> with <b>Jenkins</b> to streamline engineering
+                workflows and reduce time spent by engineers, leading to a 99%
+                reduction in manual tasks.
               </Text>
               <Text variant="content">
                 ▪ Enhanced efficiency by developing source code documentation
@@ -321,7 +321,7 @@ function App() {
               <Text variant="content">
                 Unity, Google App Engine, Node.js, Express.js, .Net Core, .NET
                 Framework, Maven, Ruby on Rails, GraphQL, Rest APIs, Git, Azure,
-                TFS, Linux, Docker, Redis, Visual Studio, VS Code, XCode
+                TFS, Linux, Docker, Jenkins, Redis, Visual Studio, VS Code, XCode
               </Text>
             </Section>
           </Stack>
