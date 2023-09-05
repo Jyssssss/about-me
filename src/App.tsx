@@ -57,7 +57,7 @@ function App() {
                 gaming experience in a multiplayer online mobile game.
               </Text>
               <Text variant="content">
-                ▪ Enhanced developing efficiency by planning and implementing
+                ▪ Enhanced development efficiency by implementing
                 source code documentation generation tool using Doxygen, and
                 crafted the web application with <b>ReactJS</b> for
                 visualization.
