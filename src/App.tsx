@@ -18,12 +18,13 @@ function App() {
           <Stack spacing={8} width="4xl">
             <Section title="About Me">
               <Text>
-                Highly skilled Software Engineer with 5+ years of experience in
-                developing mobile games, building server APIs, web applications,
-                and designing efficient software solutions. Proficient in C#,
-                JavaScript, and Python, with a strong focus on gaming
-                development in Unity and web development. Demonstrated expertise
-                in system design, architecture, and DevOps practices.
+                Full-stack software engineer with 5+ years of experience in
+                developing web applications, building server APIs, mobile games,
+                and designing efficient software solutions. Proficient in
+                JavaScript, Python, and C#, with a strong focus on full-stack
+                web application development and gaming development in Unity.
+                Demonstrated expertise in system design, architecture, and
+                DevOps practices.
               </Text>
             </Section>
             <Section title="Experience">
@@ -34,23 +35,21 @@ function App() {
                   </Text>
                 </Box>
                 <Box ml="auto">
-                  <Text>08/2021 – current</Text>
+                  <Text>08/2021 - current</Text>
                 </Box>
               </Flex>
               <Text variant="content">
-                ▪ Developed mobile games using <b>C# Unity</b> and{" "}
-                <b>Objective-C</b>, implementing new features and content to
-                drive higher user retention and maximize monetization potential.
-              </Text>
-              <Text variant="content">
                 ▪ Designed and implemented <b>JavaScript</b>-based server APIs
                 in <b>Node.js</b>, encompassing functionalities of game features
-                and data migration and achieving 100% unit test coverage.
+                and data migration, and achieving 100% unit test coverage in{" "}
+                <b>Jest</b>.
               </Text>
               <Text variant="content">
                 ▪ Built microservices using <b>Python</b> on{" "}
-                <b>Google App Engine</b> in <b>Google Cloud Platform</b>,
-                including game feature APIs, Task Queues, and MapReduce jobs.
+                <b>Google App Engine</b> in <b>Google Cloud Platform</b> with{" "}
+                <b>Google Datastore</b> and <b>Redis</b>, implementing game
+                feature APIs, and migrating data in live game with task queues
+                and MapReduce jobs.
               </Text>
               <Text variant="content">
                 ▪ Developed interactive user-facing in-game web views using{" "}
@@ -58,15 +57,21 @@ function App() {
                 gaming experience in a multiplayer online mobile game.
               </Text>
               <Text variant="content">
-                ▪ Developed internal automation tools using <b>AngularJS</b> and{" "}
-                <b>Python</b> with <b>Jenkins</b> to streamline engineering
-                workflows and reduce time spent by engineers, leading to a 99%
-                reduction in manual tasks.
+                ▪ Enhanced developing efficiency by planning and implementing
+                source code documentation generation tool using Doxygen, and
+                crafted the web application with <b>ReactJS</b> for
+                visualization.
               </Text>
               <Text variant="content">
-                ▪ Enhanced efficiency by developing source code documentation
-                generating tool using Doxygen, and crafted the web application
-                with <b>React.js</b> for visualization.
+                ▪ Developed internal automation tools using <b>AngularJS</b> as
+                front-end and <b>Python</b> as back-end with <b>Jenkins</b> to
+                streamline engineering workflows and reduce time spent by
+                engineers, leading to a 99% reduction in manual tasks.
+              </Text>
+              <Text variant="content">
+                ▪ Developed mobile games using <b>C# Unity</b> and{" "}
+                <b>Objective-C</b>, implementing new features and content to
+                drive higher user retention and maximize monetization potential.
               </Text>
               <Text variant="content">
                 ▪ Achieved 50% reductions in app bundle size and improved 25%
@@ -91,7 +96,7 @@ function App() {
                   </Text>
                 </Box>
                 <Box ml="auto">
-                  <Text>11/2016 – 11/2019</Text>
+                  <Text>11/2016 - 11/2019</Text>
                 </Box>
               </Flex>
               <Text variant="content">
@@ -107,7 +112,7 @@ function App() {
                 corporate loans domestic and overseas.
               </Text>
               <Text variant="content">
-                ▪ Architected the department’s first highly available
+                ▪ Architected the department's first highly available
                 distributed cache using <b>Redis</b> with clusters hosted on{" "}
                 <b>Red Hat Enterprise Linux</b>, bringing benefit to 30% of data
                 access in a single page on average.
@@ -141,7 +146,7 @@ function App() {
                   </Text>
                 </Box>
                 <Box ml="auto">
-                  <Text>09/2014 – 06/2015</Text>
+                  <Text>09/2014 - 06/2015</Text>
                 </Box>
               </Flex>
               <Text variant="content">
@@ -157,7 +162,7 @@ function App() {
                   <Text>Santa Clara University, Santa Clara, California</Text>
                 </Box>
                 <Box ml="auto">
-                  <Text>01/2020 – 06/2021</Text>
+                  <Text>01/2020 - 06/2021</Text>
                 </Box>
               </Flex>
               <Text variant="content">
@@ -169,7 +174,7 @@ function App() {
                   <Text>National Taiwan Normal University, Taipei, Taiwan</Text>
                 </Box>
                 <Box ml="auto">
-                  <Text>09/2011 – 06/2015</Text>
+                  <Text>09/2011 - 06/2015</Text>
                 </Box>
               </Flex>
               <Text variant="content">
@@ -321,7 +326,8 @@ function App() {
               <Text variant="content">
                 Unity, Google App Engine, Node.js, Express.js, .Net Core, .NET
                 Framework, Maven, Ruby on Rails, GraphQL, Rest APIs, Git, Azure,
-                TFS, Linux, Docker, Jenkins, Redis, Visual Studio, VS Code, XCode
+                TFS, Linux, Docker, Jenkins, Redis, Visual Studio, VS Code,
+                XCode
               </Text>
             </Section>
           </Stack>
