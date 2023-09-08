@@ -57,10 +57,10 @@ function App() {
                 gaming experience in a multiplayer online mobile game.
               </Text>
               <Text variant="content">
-                ▪ Enhanced development efficiency by implementing
-                source code documentation generation tool using Doxygen, and
-                crafted the web application with <b>ReactJS</b> for
-                visualization.
+                ▪ Constructed the automated documentation web application using{" "}
+                <b>ReactJS</b> and integrated the Doxygen documentation
+                generator to ensure stringent documentation consistency within
+                the source code.
               </Text>
               <Text variant="content">
                 ▪ Developed internal automation tools using <b>AngularJS</b> as
