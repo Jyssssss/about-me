@@ -18,11 +18,11 @@ function App() {
           <Stack spacing={8} width="4xl">
             <Section title="About Me">
               <Text>
-                Full-stack software engineer with 5+ years of experience in
-                developing web applications, building server APIs, mobile games,
+                Full-stack software engineer with 5+ years of experience
+                developing web applications, backend service APIs, mobile games,
                 and designing efficient software solutions. Proficient in
                 JavaScript, Python, and C#, with a strong focus on full-stack
-                web application development and gaming development in Unity.
+                web application and gaming development in Unity.
                 Demonstrated expertise in system design, architecture, and
                 DevOps practices.
               </Text>
@@ -39,7 +39,7 @@ function App() {
                 </Box>
               </Flex>
               <Text variant="content">
-                ▪ Designed and implemented <b>JavaScript</b>-based server APIs
+                ▪ Designed and implemented <b>JavaScript</b>-based service APIs
                 in <b>Node.js</b>, encompassing functionalities of game features
                 and data migration, and achieving 100% unit test coverage in{" "}
                 <b>Jest</b>.
